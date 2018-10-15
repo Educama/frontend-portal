@@ -1,0 +1,34 @@
+$dark_blue: #00639a;
+
+.loading-spinner {
+  font-size: 3em;
+  color: $dark_blue;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*************************/
+/* HEADER                 */
+/*************************/
+
+.educama-header {
+  display: flex;
+  background-color: $dark_blue;
+  height: 70px;
+
+  .educama-title {
+    margin-left: 20px;
+    color: white;
+  }
+}
+
+@media (max-width: 640px) {
+  .educama-header {
+    .educama-title {
+      font-size: 16px;
+    }
+  }
+}
